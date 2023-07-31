@@ -1,0 +1,82 @@
+.box{
+    border: 10px solid rgb(17, 11, 11);
+    background-color: #7F5AF0;
+   
+    padding: 0;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+}
+.physics,.it,.englis,.work,.safety{
+    height: 254.5px;
+}
+.pdf,.exam ,.sumr{
+ 
+    height: 300px;
+}
+.box:hover h1 {
+ /* color: red !important; */
+ color: black !important;
+}
+.box:hover{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+@media only screen and (max-width: 600px) {
+    .physics{
+        height: 357.3px;
+    }
+  }
+  .table{
+    border: 1px solid ;
+    max-width:900px;
+
+  }
+  .head{
+    margin-left: 5px !important;
+  }
+  .it2{
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    border: 1px solid rgb(240, 237, 237);
+    padding: 5px;
+    height: fit-content;
+    width: fit-content;
+}
+.it2:hover{
+    color: rgb(75, 75, 232);
+    text-decoration: underline;
+    border: 1px solid rgb(75, 75, 232);
+}
+.main-it{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+flex-direction: column;
+}
+.text-englis{
+    text-transform: capitalize;
+}
+.head-main{
+    font-size: 1.5em;
+}
+td ,th{
+    border: 1px solid black !important;
+    padding: 0px 10px;
+}
+.it-head{
+    background-color: #7F5AF0;
+    padding: 10px;
+    
+}
