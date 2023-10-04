@@ -87,9 +87,26 @@
   margin: 10px !important;
 
 }
+
 }
 .Second{
   height: 100vh;
 }
-
-
+.select-value
+{
+cursor: pointer;
+}
+.btn-width{
+  width: 400px;
+  background: #000;
+}
+@media only screen and (max-width: 950px) {
+  .btn-width{
+    width:200px;
+  }
+}
+@media only screen and (max-width: 412px) {
+  .btn-width{
+    width:100%;
+  }
+}
